@@ -3,9 +3,9 @@ using System.Text.RegularExpressions;
 
 namespace AdventOfCode2024;
 
-public class Day3
+public class Day3 : Day
 {
-    public long Run(string[] problemInput)
+    public long RunTask1(string[] problemInput)
     {
         var sum = 0;
         foreach (var input in problemInput)
@@ -31,7 +31,7 @@ public class Day3
         return sum;
     }
     
-    public long Run2(string[] problemInput)
+    public long RunTask2(string[] problemInput)
     {
         var sum = 0;
         var newInput = PrepareSafeInstructions(problemInput);

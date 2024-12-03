@@ -2,9 +2,9 @@
 
 namespace AdventOfCode2024;
 
-public class Day2
+public class Day2 : Day
 {
-    public long Run(string[] input)
+    public long RunTask1(string[] input)
     {
         var safeReportCount = 0;
         foreach (var line in input)
@@ -44,7 +44,7 @@ public class Day2
         return safeReportCount;
     }
     
-    public long Run2(string[] input)
+    public long RunTask2(string[] input)
     {
         var safeReportCount = 0;
         foreach (var line in input)

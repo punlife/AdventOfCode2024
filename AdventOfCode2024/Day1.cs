@@ -1,12 +1,12 @@
 ﻿namespace AdventOfCode2024;
 
-public class Day1
+public class Day1 : Day
 {
     private List<int> leftList = new List<int>();
     private List<int> rightList = new List<int>();
     private Dictionary<int, int> occuranceCount = new Dictionary<int, int>();
 
-    public long Run(string[] input)
+    public long RunTask1(string[] input)
     {
         foreach (var line in input)
         {
@@ -22,7 +22,7 @@ public class Day1
         return ReturnSumOfEachLineDifference();
     }
     
-    public long Run2(string[] input)
+    public long RunTask2(string[] input)
     {
         foreach (var line in input)
         {
