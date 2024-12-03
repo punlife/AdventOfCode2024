@@ -1,0 +1,9 @@
+.idea/
+bin/
+obj/
+/AdventOfCode2024/Data/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+/AdventOfCode2024/Data
+*.txt
